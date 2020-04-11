@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "438649571649",
+    "firebase_url": "https://greengardern-2ddc5.firebaseio.com",
+    "project_id": "greengardern-2ddc5",
+    "storage_bucket": "greengardern-2ddc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438649571649:android:94a9543071a6d3e12f79c0",
+        "android_client_info": {
+          "package_name": "aplicacion.greengardens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438649571649-bhjvnpioka49uuhektflrha1vt94pos5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHjTkNbG0GBMJsFzcU0xtUvEeSL1rLV7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438649571649-bhjvnpioka49uuhektflrha1vt94pos5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

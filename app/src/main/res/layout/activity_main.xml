@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary"
+    android:id="@+id/container">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="258dp"
+        android:layout_height="278dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greengardenpng" />
+
+    <ImageButton
+        android:id="@+id/btnSiguienteIlum"
+        android:layout_width="164dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/foco"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/btnSiguientePuerta"
+        android:layout_width="173dp"
+        android:layout_height="131dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="12dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/puerta"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/btnSiguienteRiego"
+        android:layout_width="162dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="28dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSiguienteIlum"
+        app:srcCompat="@drawable/riego"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/btnSiguienteVenti"
+        android:layout_width="172dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSiguientePuerta"
+        app:srcCompat="@drawable/ventilador" />
+
+    <ImageButton
+        android:id="@+id/btnSiguienteInfo"
+        android:layout_width="57dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/acercade"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:id="@+id/txtBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Bienvenido a Green Garden!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/txtInicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="Escoge alguna de nuestras opciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBienvenido" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
